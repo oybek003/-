@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titleSite"><span>M</span>OVIES<span>!</span></h1>        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Search movie" />
+            <select id="filterType">
+                <option value="all">All</option>
+                <option value="History">History</option>
+                <option value="Action">Action</option>
+                <option value="Thriller">Thriller</option>
+                <option value="Comedy">Comedy</option>
+            </select>
+            <select id="sortBy">
+                <option value="alphabeticalAsc">(A-Z)</option>
+                <option value="alphabeticalDesc">(Z-A)</option>
+                <option value="CategoriesAsc">10-1</option>
+                <option value="CategoriesDesc">1-10</option>
+                <option value="YearsAsc">2000-2018</option>
+                <option value="YearsDesc">2018-2000</option>
+            </select>
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="pokemonContainer" class="pokemon-list">
+
+
+
+
+        </div>
+    </div>
+
+     <script type="module" src="movies.js"></script>
+     <script type="module" src="script.js"></script> 
+
+
+</body>
+</html>
